@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 
 def roman_to_int(roman_string):
+    if type(roman_string) is not str:
+        return (0)
+    
     if type(roman_string) is str:
         values = {
             "I": 1,
@@ -26,3 +29,4 @@ def roman_to_int(roman_string):
 
         return (total)
     return (previous)
+

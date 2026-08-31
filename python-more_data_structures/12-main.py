@@ -12,7 +12,7 @@ print("{} = {}".format(roman_number, roman_to_int(roman_number)))
 roman_number = "IX"
 print("{} = {}".format(roman_number, roman_to_int(roman_number)))
 
-roman_number = "LXXXVII"
+roman_number = "8765678765"
 print("{} = {}".format(roman_number, roman_to_int(roman_number)))
 
 roman_number = "DCCVII"
