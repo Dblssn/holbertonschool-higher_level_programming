@@ -32,7 +32,7 @@ TypeError: a must be an integer
 
 Test for OverflowError
 
-add_integer(float('inf'))
+    >>> add_integer(float('inf'))
     Traceback (most recent call last):
     OverflowError: cannot convert float infinity to integer
 
