@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""Define a function that write a class
-"""
+"""Define a function that write a class"""
 
 
 class Square:
