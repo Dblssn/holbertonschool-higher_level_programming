@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""Define a function that write a class"""
+"""Define a class Square. """
 
 
 class Square:
+    """ This function defines a square. """
+
     def __init__(self, size):
-        """This function defines a square
-        """
+
         self.__size = size
