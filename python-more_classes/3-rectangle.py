@@ -51,6 +51,4 @@ class Rectangle:
             return ""
 
         result = ""
-        for i in range(self.height):
-            result += ("#" * self.width + "\n")
-        return (result)
+        return "\n".join("#" * self.width for i in range(self.height))
