@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """Script that takes arg and displays all values in the table"""
 
-import sys
 import MySQLdb
 from sys import argv
 
@@ -13,10 +12,11 @@ if __name__ == '__main__':
         passwd=argv[2],
         db=argv[3]
     )
+
     cursor = db.cursor()
 
     query = "SELECT * FROM states " \
-            "WHERE name = '{}' ORDER BY id ASC".format(sys.argv[4])
+            "WHERE name = '{}' ORDER BY id ASC".format(argv[4])
 
     cursor.execute(query)
 
